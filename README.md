@@ -63,7 +63,7 @@ Developed by:SHASWANTH MATHAV.S RegisterNumber:24900884*/
 
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: ROSHINI A /  RegisterNumber: 24002364
+Developed by: shaswanth mathav s /  RegisterNumber: 24900884
 
 **RTL Schematic**
 ![Screenshot 2024-12-17 142847](https://github.com/user-attachments/assets/aeccaddf-33dc-451e-8a79-6d40c9dc35cb)
