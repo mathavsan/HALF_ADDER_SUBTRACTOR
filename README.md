@@ -34,6 +34,11 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+**half adder:**
+![image](https://github.com/user-attachments/assets/43983dae-03bd-490e-9103-183f156dd15b)
+
+**half subtractor:**
+![image](https://github.com/user-attachments/assets/0e80b7d3-6228-451b-81b0-28088dbaab18)
 
 **Procedure**
 
@@ -53,24 +58,24 @@ Figure -02 HALF Subtractor
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
 Developed by:SHASWANTH MATHAV.S RegisterNumber:24900884*/
-```module EXP_3(a,b,cy,sm,df,bo);
-input a,b;
-output sm,cy,df,bo;
-xor(sm,a,b);
-and(cy,a,b);
-xor(df,a,b);
-and(bo,~a,b);
-endmodule
-```
-![WhatsApp Image 2024-10-29 at 13 15 25_c1f6bb3c](https://github.com/user-attachments/assets/7572b667-ee05-44a9-ae5b-7df9f04745d2)
-**RTL Schematic**
+**Program:**
+![Screenshot 2024-12-17 142817](https://github.com/user-attachments/assets/b0afd1d0-22d1-4b36-827b-c670b065466c)
 
-![EXP3 RTL](https://github.com/user-attachments/assets/8c4b467f-62a0-4cbf-86d8-a673bd2675ae)
+Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+
+Developed by: ROSHINI A /  RegisterNumber: 24002364
+
+**RTL Schematic**
+![Screenshot 2024-12-17 142847](https://github.com/user-attachments/assets/aeccaddf-33dc-451e-8a79-6d40c9dc35cb)
+![Screenshot 2024-12-17 142902](https://github.com/user-attachments/assets/26c1d97c-07c8-4bdb-adab-3f482a1f99b7)
 
 
 **Output/TIMING Waveform**
-
-![EXP3 Waveforrm](https://github.com/user-attachments/assets/fe8e1808-ca35-4cf1-a433-60eb11a81776)
+![Screenshot 2024-12-17 142916](https://github.com/user-attachments/assets/08678c4c-afbf-4c77-a37b-55deb7a77dfd)
+![Screenshot 2024-12-17 142928](https://github.com/user-attachments/assets/f73dd3e7-7baa-4db4-baa7-9fa8f744c903)
 
 
 **Result:**
+Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
+
+
